@@ -22,6 +22,7 @@ const userSchema = new mongoose.Schema({
   monthlyPoints: [monthlyPointSchema],
   leaderboardEntries: [leaderboardEntrySchema],
   
+  
   password: {
     type: String,
     required: true,
