@@ -16,6 +16,7 @@ export const createUser = async (req, res) => {
       );
     }
     
+    
     const user = await User.create(userData);
     
     // Remove password from response
